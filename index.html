@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nani</title>
+    <link rel="shortcut icon" href="ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://vjs.zencdn.net/8.16.1/video-js.css" rel="stylesheet" />
+    <!-- Forest -->
+<link href="https://unpkg.com/@videojs/themes@1/dist/forest/index.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="nani-logo.png" alt="you're wonderful">
+        </div>
+    </header>
+    <main>
+        <div hidden class="hello" id="hello">
+            <h1>Hello my love</h1>
+        </div>
+        <div hidden class="question hello" id="first-question">
+            <h1>Can I ask you something?</h1>
+            <div class="first-buttons">
+                <button class="first-no-button" id="no-button">NO</button>
+                <button class="fist-ok-button" id="fist-ok-button" data-text="Awesome">
+                    <span class="actual-text">&nbsp;OK&nbsp;</span>
+                    <span aria-hidden="true" class="hover-text">&nbsp;OK&nbsp;</span>
+                </button>
+            </div>
+        </div>
+        <div class="thank-you hello" id="thank-you">
+            <h1>Thank You Nani</h1>
+            <h2>First this flowers for you</h2>
+            <button class="flowers-btn" id="flowers-btn">
+              <div class="wrapper">
+                <p class="text">Take It</p>
+                <div class="flower flower1">
+                  <div class="petal one"></div>
+                  <div class="petal two"></div>
+                  <div class="petal three"></div>
+                  <div class="petal four"></div>
+                </div>
+                <div class="flower flower2">
+                  <div class="petal one"></div>
+                  <div class="petal two"></div>
+                  <div class="petal three"></div>
+                  <div class="petal four"></div>
+                </div>
+                <div class="flower flower3">
+                  <div class="petal one"></div>
+                  <div class="petal two"></div>
+                  <div class="petal three"></div>
+                  <div class="petal four"></div>
+                </div>
+                <div class="flower flower4">
+                  <div class="petal one"></div>
+                  <div class="petal two"></div>
+                  <div class="petal three"></div>
+                  <div class="petal four"></div>
+                </div>
+                <div class="flower flower5">
+                  <div class="petal one"></div>
+                  <div class="petal two"></div>
+                  <div class="petal three"></div>
+                  <div class="petal four"></div>
+                </div>
+                <div class="flower flower6">
+                  <div class="petal one"></div>
+                  <div class="petal two"></div>
+                  <div class="petal three"></div>
+                  <div class="petal four"></div>
+                </div>
+              </div>
+            </button>
+        </div>
+        <div class="smile-please hello" id="smile-please">
+            <h1>Show me you beautiful smile<br> &#x1F31D</h1>
+            <button class="capture-button" id="capture">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" height="24" fill="none" class="svg-icon"><g stroke-width="2" stroke-linecap="round" stroke="#fff" fill-rule="evenodd" clip-rule="evenodd"><path d="m4 9c0-1.10457.89543-2 2-2h2l.44721-.89443c.33879-.67757 1.03131-1.10557 1.78889-1.10557h3.5278c.7576 0 1.4501.428 1.7889 1.10557l.4472.89443h2c1.1046 0 2 .89543 2 2v8c0 1.1046-.8954 2-2 2h-12c-1.10457 0-2-.8954-2-2z"></path><path d="m15 13c0 1.6569-1.3431 3-3 3s-3-1.3431-3-3 1.3431-3 3-3 3 1.3431 3 3z"></path></g></svg>
+                <span class="lable">Take a Photo</span>
+              </button>
+        </div>
+        <div class="nani-photo hello" id="nani-photo">
+            <h1>How beautiful you are</h1>
+            <h1>Really as I said <br>(رنا قلبي لجماله وتيم)</h1>
+            <span class="loader"></span>
+            <img src="nani-photo.webp" alt="">
+        </div>
+        <div hidden class="message hello" id="message">
+            <h1>Rana</h1>
+            <h2>I wanted to tell you that you are beautiful, and nobody deserves your sadness. Just smile and look around you, you’ll find many people who love you.</h2>
+        </div>
+        <div hidden class="love hello" id="love">
+            <h1>Love You</h1>
+            <h2>"Ziad"</h2>
+            <div class="love-loading">
+                <svg width="64px" height="48px">
+                    <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="back"></polyline>
+                  <polyline points="0.157 23.954, 14 23.954, 21.843 48, 43 0, 50 24, 64 24" id="front"></polyline>
+                </svg>
+              </div>
+              <h3>This song for you</h3>
+              <audio
+                id="my-audio"
+                class="video-js vjs-theme-forest"
+                controls
+                preload="auto"
+                data-setup="{}"
+                style="border-radius: 30px;"
+                >         
+                <source src="surprise.mp3" type="audio/mp3" />
+            </audio>
+        </div>
+    </main>
+    <!-- script -->
+    <script src="https://vjs.zencdn.net/8.16.1/video.min.js"></script>
+     <script src="main.js"></script>
+</body>
+</html>
