@@ -460,8 +460,12 @@ header {
   
 
   .nani-photo img {
-    width: 70vw;
+    width: 50vw;
     border-radius: 30px;
+  }
+
+ .nani-photo h1 {
+    font-size: 3vw;
   }
 
 
