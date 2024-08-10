@@ -59,6 +59,6 @@ capture.addEventListener('click', ()=> {
         setTimeout(()=> {
             message.hidden = true;
             love.hidden = false;
-        }, 14000)
+        }, 13000)
     },8500);
 });
